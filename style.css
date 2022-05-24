@@ -1,0 +1,134 @@
+html{
+    scroll-behavior: smooth;
+}
+.card {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     max-width: 300px;
+     font-family: arial;
+     display: inline-block;
+     font-size: small;
+     border-radius: 15px;
+     margin: 10px;
+     }
+
+.card :hover{
+      box-shadow: 100px;
+  }   
+.imgg{
+       
+       height:200px;
+       width: 300px;
+       border-top-left-radius: 15px;
+       border-top-right-radius: 15px;
+     
+  }
+
+.heads{
+   padding-left: 15px;
+   padding-right: 15px;
+   font-family:Raleway,sans-serif;
+   
+   
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+#foot{color: white;}
+p{
+    color: rgb(201, 156, 156);
+    font-size: small;
+    letter-spacing: 1px;
+}
+h2{
+    color: rgb(44, 24, 64);
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    height:40px;
+    width: 100vw;
+    position: fixed;
+    background-color: white;
+    margin-top: 0%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 2px 0 gray;
+
+     
+}
+.nav-button{
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: blue;
+    padding:10px;
+    border: 1px solid blue;
+    color: white;
+    
+}
+.logo{
+    color: blue ;
+    font-size:xx-large;
+}
+
+.logo-base{
+    color: black;
+    
+}
+.heading{
+    padding-top:100px;
+    padding-left: 300px;
+
+}
+.heading-2{
+    margin: 10px;
+    padding-left: 300px;
+
+}
+.top-images{
+    display: flex;
+    width: 100px;
+    height:100%;
+    padding-left: 300px;
+    
+   
+}
+.image-2{
+    padding:2px;
+    height: 200px;
+    margin: 0%;
+    
+}
+.button-2{
+    border-radius: 18px;
+    color: blue;
+    padding: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+
+.footer{
+    background-color:#172146;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    height: 300px;
+}
+.sub-footer{
+    color: gray;
+    flex-direction: row;
+}
+.mail-logo{
+    padding-top: 10px;
+    width: 20px;
+    height: 20px;
+    display: inline;
+  
+    
+}
+
+
+
+
