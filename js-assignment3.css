@@ -1,0 +1,134 @@
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+.card {
+    width: 15%;
+    min-width: 200px;
+    height: auto;
+    margin: 30px 10px;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 2px 3px 4px 3px #888888;
+    display: inline-block;
+    margin: 30px;
+
+
+}
+
+.card:hover {
+    box-shadow: 7px 6px 7px 7px #888888;
+}
+
+/* .card1{
+    width: 15%;
+    min-width: 200px;
+    height: auto;
+    margin: 30px 10px;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow:2px 3px 4px 3px #888888;
+    display: inline-block;
+    margin: 40px;
+    
+
+}
+.card1:hover{
+    box-shadow:7px 7px 7px 7px #888888;
+}  */
+img {
+    width: 227px;
+}
+
+.details {
+    margin: 10px;
+
+}
+h2{
+    margin: 10px 0 0 15px;
+}
+
+#head2 {
+    margin: 20px 20px 0 20px;
+    margin-top: -500px;
+}
+
+h3 {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: rgb(27, 25, 25);
+    padding: 0 2px 2px 10px;
+}
+
+h4 {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 12px;
+    color: rgb(110, 110, 110);
+    padding: 0 2px 2px 10px;
+}
+
+.card h5 {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #009688;
+    padding: 0 4px 15px 10px;
+}
+
+@media only screen and (max-width: 550px) {
+
+    img {
+        width: 200px;
+    }
+
+    h3 {
+        text-align: left;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        color: rgb(27, 25, 25);
+    }
+
+    h4 {
+        margin-top: 10px;
+        text-align: left;
+        font-size: 14px;
+        color: rgb(110, 110, 110);
+    }
+
+    h5 {
+        margin-top: 10px;
+        text-align: left;
+        font-size: 15px;
+        letter-spacing: 2px;
+        color: #009688;
+    }
+
+    #head2 {
+        margin-top: -2340px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    #head2 {
+        margin-top: -2274px;
+    }
+
+    .card {
+        margin: 0 0 60px 40px;
+    }
+}
