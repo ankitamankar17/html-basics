@@ -295,7 +295,7 @@ function chkPair(A , size , x) {
     return false;
 }
 
-    let A = [ 1,3,2,2,8];
+    let A = [ 1,3,2,6,8];
     let x = 4;
     let size = A.length;
 
